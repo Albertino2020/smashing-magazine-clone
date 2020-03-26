@@ -34,4 +34,24 @@ p {
 .hd-items-img {
     width: 39px;
     height: 44px;
+    transform: rotate(-20deg);
+    border: 1px solid greenyellow;
+}
+
+.hd-items-img:hover {
+    transform: rotate(0deg);
+}
+
+.btn-wrap,
+.btn-wrap a {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 20px 20px;
 }
