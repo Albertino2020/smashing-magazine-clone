@@ -1,7 +1,6 @@
 .hd {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    flex-direction: row;
+    grid-template-columns: 10% repeat(5, 1fr) 10%;
     align-content: space-around;
     /*align-items: center;*/
     place-items: center;
@@ -11,6 +10,8 @@
     padding: 1em 0;
     position: relative;
     min-height: 6.2375rem;
+    /* margin: 0;
+    padding: 0; */
 }
 
 .logo {
@@ -35,15 +36,14 @@ p {
     width: 39px;
     height: 44px;
     transform: rotate(-20deg);
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 
 .hd-items-img:hover {
     transform: rotate(0deg);
 }
 
-.btn-wrap,
-.btn-wrap a {
+.btn-wrap {
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
@@ -54,4 +54,54 @@ p {
     height: 40px;
     border-radius: 5px;
     padding: 20px 20px;
+}
+
+.belowHead {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.artContent {
+  background-color: #BC3428;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+  border: 1px solid green;
+}
+
+.artContent > h1 {
+  color: white;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  place-items: center;
+  flex-grow: initial;
+  /* margin-right: 200px; */
+}
+
+.artImg {
+  width: 60px;
+  height: 60px;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-right: 20px;
+  transform: rotate(-20deg);
+}
+
+.artImg:hover {
+  transform: rotate(0deg);
+}
+
+.authName {
+  margin-right: 5px;
+  font-size: 20.871px;
+  text-shadow: 1px 1px rgba(0,0,0,.25);
+}
+
+.author > span {
+  color: white;
+  font-size: 15px;
 }
