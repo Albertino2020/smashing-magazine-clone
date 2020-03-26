@@ -1,0 +1,6 @@
+.hd {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    background-color: #D33A2C;
+}
