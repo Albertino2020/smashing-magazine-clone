@@ -159,6 +159,19 @@ p {
     padding: 50px 20%;
 }
 
+.latest_art {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid green;
+  place-items: center;
+}
+
+.latest_art p a {
+  /* display: block; */
+  text-align: center;
+  color: black;
+}
+
 .space {
     display: flex;
     flex-direction: column;
@@ -193,3 +206,24 @@ h2 {
 .btn-arrow {
     margin-left: 10px;
 }
+
+.community {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about_auth p {
+  color: black;
+}
+
+.comm_img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  align-self: stretch;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
