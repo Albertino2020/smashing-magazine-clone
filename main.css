@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .hd {
@@ -61,54 +61,65 @@ p {
 }
 
 .belowHead {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .artContent {
-  background-color: gray;
-  display: flex;
-  flex-direction: column;
-  padding: 140px 100px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+.artContent1 {
+    background-color: rgb(212, 206, 206);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
 }
 
 .artContent:nth-child(2) {
-  background-color: #666666;
+    background-color: #666666;
 }
 
-.artContent > h1 {
-  color: white;
+.artContent>h1 {
+    color: white;
+}
+
+.artContent1>h1 {
+    color: rgb(2, 2, 2);
 }
 
 .author {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  place-items: center;
-  flex-grow: initial;
-  /* margin-right: 200px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    place-items: center;
+    flex-grow: initial;
+    /* margin-right: 200px; */
 }
 
 .artImg {
-  width: 60px;
-  height: 60px;
-  border: 4px solid white;
-  border-radius: 10px;
-  margin-right: 20px;
-  transform: rotate(-20deg);
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+    border-radius: 10px;
+    margin-right: 20px;
+    transform: rotate(-20deg);
 }
 
 .artImg:hover {
-  transform: rotate(0deg);
+    transform: rotate(0deg);
 }
 
 .authName {
-  margin-right: 5px;
-  font-size: 20.871px;
-  text-shadow: 1px 1px rgba(0,0,0,.25);
+    margin-right: 5px;
+    font-size: 20.871px;
+    text-shadow: 1px 1px rgba(0, 0, 0, .25);
 }
 
-.author > span {
-  color: white;
-  font-size: 15px;
+.author>span {
+    color: white;
+    font-size: 15px;
 }
