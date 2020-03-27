@@ -1,10 +1,15 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .hd {
     display: grid;
     grid-template-columns: 10% repeat(5, 1fr) 10%;
     align-content: space-around;
     /*align-items: center;*/
     place-items: center;
-    background-color: #D33A2C;
+    background-color: #666666;
     width: 100%;
     /*height: 150px;*/
     padding: 1em 0;
@@ -36,7 +41,6 @@ p {
     width: 39px;
     height: 44px;
     transform: rotate(-20deg);
-    /* border: 1px solid greenyellow; */
 }
 
 .hd-items-img:hover {
@@ -62,11 +66,14 @@ p {
 }
 
 .artContent {
-  background-color: #BC3428;
+  background-color: gray;
   display: flex;
   flex-direction: column;
-  padding: 40px 50px;
-  border: 1px solid green;
+  padding: 140px 100px;
+}
+
+.artContent:nth-child(2) {
+  background-color: #666666;
 }
 
 .artContent > h1 {
