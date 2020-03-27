@@ -123,3 +123,37 @@ p {
     color: white;
     font-size: 15px;
 }
+
+.ad-Art {
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+}
+
+.ad-Art-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.ad-Art-1 > .ads {
+  grid-column: span 2;
+  background-color: grey;
+}
+
+.ad-Art-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.ad-Art-2 > .ads {
+  grid-column: span 2;
+  background-color: grey;
+}
+
+.ads {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding: 50px 20%;
+}
