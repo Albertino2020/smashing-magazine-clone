@@ -322,6 +322,7 @@ h2 {
     height: 50px;
     border-radius: 10px;
     margin-right: 0px;
+    background-color: whitesmoke;
 }
 
 .smash-btn {
@@ -329,5 +330,11 @@ h2 {
     width: 30%;
     height: 50px;
     border-radius: 10px;
-    margin-left: 0px;
+    margin-left: -20px;
+    background-color: whitesmoke;
+}
+
+.smash-img {
+    display: block;
+    width: 60%;
 }
