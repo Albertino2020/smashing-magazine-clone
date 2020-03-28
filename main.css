@@ -3,25 +3,28 @@ body {
     box-sizing: border-box;
 }
 
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
 .hd {
     display: grid;
     grid-template-columns: 10% repeat(5, 1fr) 10%;
     align-content: space-around;
-    /*align-items: center;*/
     place-items: center;
     background-color: #666666;
     width: 100%;
-    /*height: 150px;*/
     padding: 1em 0;
     position: relative;
     min-height: 6.2375rem;
-    /* margin: 0;
-    padding: 0; */
+    /* border: 1px solid greenyellow; */
 }
 
 .logo {
-    width: 50%;
-    height: auto;
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
 }
 
 .hd-items {
@@ -30,6 +33,7 @@ body {
     align-items: center;
     text-align: center;
     line-height: 6px;
+    /* border: 1px solid greenyellow; */
 }
 
 .hd-items h2,
@@ -48,25 +52,140 @@ p {
 }
 
 .btn-wrap {
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-    border: 2px;
-    border-style: solid;
-    border-color: white;
-    width: 100px;
-    height: 40px;
-    border-radius: 5px;
-    padding: 20px 20px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-wrap a {
+  display: flex;
+  box-sizing: border-box;
+  height: 20px;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-wrap a i {
+  margin: 5px;
 }
 
 .belowHead {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 1fr;
+    /* border: 1px solid greenyellow; */
 }
 
+.latestArtBox {
+  grid-column: span 3;
+  height: 150px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 1px solid red; */
+}
+
+.labox {
+  background-color: #666;
+}
+
+.dontMissBox {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding-top: 40px;
+}
+
+.dontMissBox h1 {
+  background-color: white;
+  text-align: center;
+  /* padding: 20px 20px; */
+  padding: 0;
+  margin: 0 40px 0 40px;
+}
+
+.btnWrap {
+  background-color: #666;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px 40px auto auto;
+}
+
+.switchColor {
+  /* width: 200px; */
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr; */
+  /* box-sizing: border-box;
+  justify-self: flex-end;
+  float: right;
+  vertical-align: middle; */
+}
+
+.btnImage {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: white;
+  transform: rotate(-20deg);
+  /* position: relative;
+  left: 2%;
+  display: inline-block; */
+}
+
+.btn {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 40px 0;
+  border: 0;
+}
+
+.btn span {
+  border: 2px solid white;
+  height: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.btnColor {
+  /* position: relative; */
+  /* left: 30%; */
+  font-size: 16px;
+  font-weight: bold;
+  /* width: 70%; */
+  /* box-sizing: border-box; */
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0;
+} 
+
+
 .artContent {
-    background-color: gray;
+  background-color: #666666;
     display: flex;
     flex-direction: column;
     padding: 20px 50px;
@@ -79,8 +198,8 @@ p {
     padding: 20px 50px;
 }
 
-.artContent:nth-child(2) {
-    background-color: #666666;
+.artContent:nth-child(3) {
+  background-color: grey;
 }
 
 .artContent>h1 {
@@ -197,13 +316,18 @@ h2 {
 }
 
 .space .btn {
-    width: 300px;
-    height: 50px;
-    border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
 }
 
+
 .btn-arrow {
-    margin-left: 10px;
+  margin-left: 10px;
+}
+
+.btn-arrow1 {
+  margin-right: 10px;
 }
 
 .community {
@@ -247,12 +371,6 @@ h2 {
     align-self: stretch;
     /* margin: 40px 20px 20px 20px; */
 }
-
-
-/* 
-.line1 {
-  border: 1px solid greenyellow;
-} */
 
 .space-wrap {
     display: flex;
