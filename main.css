@@ -4,9 +4,10 @@ body {
 }
 
 img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-  }
+}
 
 .hd {
     display: grid;
@@ -22,9 +23,9 @@ img {
 }
 
 .logo {
-  width: 100%;
-  height: auto;
-  margin-left: 10px;
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
 }
 
 .hd-items {
@@ -52,31 +53,31 @@ p {
 }
 
 .btn-wrap {
-  display: flex;
-  box-sizing: border-box;
-  flex-direction: row;
-  border: 2px;
-  border-style: solid;
-  border-color: white;
-  width: 120px;
-  height: 40px;
-  border-radius: 5px;
-  padding: 20px 20px;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .btn-wrap a {
-  display: flex;
-  box-sizing: border-box;
-  height: 20px;
-  padding: 0;
-  text-decoration: none;
-  color: white;
+    display: flex;
+    box-sizing: border-box;
+    height: 20px;
+    padding: 0;
+    text-decoration: none;
+    color: white;
 }
 
 .btn-wrap a i {
-  margin: 5px;
+    margin: 5px;
 }
 
 .belowHead {
@@ -86,106 +87,112 @@ p {
     /* border: 1px solid greenyellow; */
 }
 
+.belowHead1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* border: 1px solid greenyellow; */
+}
+
 .latestArtBox {
-  grid-column: span 3;
-  height: 150px;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* border: 1px solid red; */
+    grid-column: span 3;
+    height: 150px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 1px solid red; */
 }
 
 .labox {
-  background-color: #666;
+    background-color: #666;
 }
 
 .dontMissBox {
-  background-color: grey;
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  padding-top: 40px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding-top: 40px;
 }
 
 .dontMissBox h1 {
-  background-color: white;
-  text-align: center;
-  /* padding: 20px 20px; */
-  padding: 0;
-  margin: 0 40px 0 40px;
+    background-color: white;
+    text-align: center;
+    /* padding: 20px 20px; */
+    padding: 0;
+    margin: 0 40px 0 40px;
 }
 
 .btnWrap {
-  background-color: #666;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-end;
-  padding: 40px 40px auto auto;
+    background-color: #666;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 40px auto auto;
 }
 
 .switchColor {
-  /* width: 200px; */
-  height: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 1fr; */
-  /* box-sizing: border-box;
+    /* width: 200px; */
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr; */
+    /* box-sizing: border-box;
   justify-self: flex-end;
   float: right;
   vertical-align: middle; */
 }
 
 .btnImage {
-  width: 40px;
-  height: 40px;
-  border: 2px solid white;
-  border-radius: 10px;
-  background: white;
-  transform: rotate(-20deg);
-  /* position: relative;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: white;
+    transform: rotate(-20deg);
+    /* position: relative;
   left: 2%;
   display: inline-block; */
 }
 
 .btn {
-  width: 300px;
-  height: 50px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  margin: 40px 0;
-  border: 0;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 40px 0;
+    border: 0;
 }
 
 .btn span {
-  border: 2px solid white;
-  height: 20px;
-  border-radius: 10px;
-  padding: 5px;
-  margin-left: 20px;
+    border: 2px solid white;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 20px;
 }
 
 .btnColor {
-  /* position: relative; */
-  /* left: 30%; */
-  font-size: 16px;
-  font-weight: bold;
-  /* width: 70%; */
-  /* box-sizing: border-box; */
-  border: 2px solid black;
-  border-radius: 5px;
-  margin: 0;
-} 
-
+    /* position: relative; */
+    /* left: 30%; */
+    font-size: 16px;
+    font-weight: bold;
+    /* width: 70%; */
+    /* box-sizing: border-box; */
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0;
+}
 
 .artContent {
-  background-color: #666666;
+    background-color: #666666;
     display: flex;
     flex-direction: column;
     padding: 20px 50px;
@@ -198,8 +205,26 @@ p {
     padding: 20px 50px;
 }
 
-.artContent:nth-child(3) {
-  background-color: grey;
+.artContent1 p,
+i,
+em,
+div,
+h1,
+.author,
+.art-arrow1 {
+    color: black;
+}
+
+.color-black {
+    color: black;
+}
+
+.artContent:nth-child(2) {
+    background-color: grey;
+}
+
+.backg2 {
+    background-color: grey;
 }
 
 .artContent>h1 {
@@ -247,13 +272,15 @@ p {
     display: grid;
     /* grid-template-columns: repeat(4, 1fr); */
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 550px 550px;
     width: 100%;
+    padding-top: 0;
 }
 
 .ad-Art-1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding-top: 0;
 }
 
 .ad-Art-1>.ads {
@@ -275,7 +302,11 @@ p {
     display: flex;
     flex-direction: column;
     place-items: center;
-    padding: 50px 20%;
+    padding: 0 20%;
+}
+
+.ads h1 {
+    margin-top: 0;
 }
 
 .latest_art {
@@ -316,18 +347,17 @@ h2 {
 }
 
 .space .btn {
-  width: 300px;
-  height: 50px;
-  border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
 }
 
-
 .btn-arrow {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 .btn-arrow1 {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .community {
@@ -502,3 +532,55 @@ li a:hover {
     padding: 40px 20px;
     color: white;
 }
+
+.commment {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.comment .img {
+    margin-right: 10px;
+    color: white;
+}
+
+.commment h1,
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.art-arrow {
+    margin-bottom: 50px;
+    margin-top: 150px;
+    color: white;
+}
+
+.ads_image {
+    width: 220px;
+    height: 253px;
+    margin-top: 0;
+}
+
+.ads h1 {
+    color: white;
+}
+
+.ads-button {
+    color: black;
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: 600px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.ads-button i {
+    margin-left: 20px;
+}
+
+.p-bot {
+    margin-bottom: 50px;
+}
+
+
+/*.p-sup¬ {}*/
