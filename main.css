@@ -379,6 +379,7 @@ a,
 
 .ads h1 {
   margin-top: 0;
+  color: white;
 }
 
 .latest_art {
@@ -688,7 +689,7 @@ a,
   color: white;
 }
 
-.commment h1 {
+.comment h2 {
   text-decoration: none;
   color: white;
   font-size: 30px;
