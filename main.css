@@ -85,6 +85,13 @@ a,
   line-height: 0.5;
 }
 
+.comment h2 {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .hd a h2 {
   margin-bottom: 10px;
 }
@@ -687,13 +694,6 @@ a,
 .comment .img {
   margin-right: 10px;
   color: white;
-}
-
-.comment h2 {
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .art-arrow {
