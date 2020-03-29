@@ -9,6 +9,16 @@ img {
     filter: grayscale(100%);
 }
 
+a, space h1 {
+  text-decoration: none;
+  color: white;
+}
+
+.fas2 {
+  display: inline-block;
+  width: 100px;
+}
+
 .hd {
     display: grid;
     grid-template-columns: 10% repeat(5, 1fr) 10%;
@@ -22,13 +32,13 @@ img {
     /* border: 1px solid greenyellow; */
 }
 
-.hd div p em {
+.hd a h4 em {
     color: white;
     line-height: 0.1;
     font-size: 20px;
 }
 
-.hd div h2 {
+.hd a h2 {
     margin-bottom: 10px;
 }
 
@@ -44,7 +54,15 @@ img {
     align-items: center;
     text-align: center;
     line-height: 6px;
-    /* border: 1px solid greenyellow; */
+}
+
+.hd-items:hover .hd-items-img{
+  transform: rotate(0deg);
+}
+
+.hd-items:hover h2, .hd-items:hover h4 em {
+  color: black;
+
 }
 
 .hd-items h2,
@@ -75,22 +93,27 @@ h4 em {
     border-radius: 5px;
     padding: 20px 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.btn-wrap a {
+.btn-wrap {
     display: flex;
     box-sizing: border-box;
-    height: 20px;
+    height: 40px;
     padding: 0;
     text-decoration: none;
     color: white;
 }
 
-.btn-wrap a i {
+.btn-wrap i {
     align-self: center;
     color: white;
-    margin-right: 5px;
+    margin-right: 2px;
+}
+
+.btn-wrap span {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .belowHead {
@@ -204,6 +227,16 @@ h4 em {
     margin: 0;
 }
 
+.btn:hover .btnImage {
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  background-color: white;
+  color: black;
+}
+
 .artContent {
     background-color: #666666;
     display: flex;
@@ -274,6 +307,7 @@ h1,
 
 .artImg:hover {
     transform: rotate(0deg);
+    transition: 0.5s;
 }
 
 .authName {
@@ -430,6 +464,11 @@ p {
     align-self: stretch;
     margin: 40px 60px 20px 60px;
     transform: rotate(-20deg);
+}
+
+.comm_img:hover {
+  transform: rotate(0deg);
+  transition: 0.5s;
 }
 
 .comm_about {
@@ -654,6 +693,7 @@ footer li a:hover {
     margin-bottom: 50px;
     margin-top: 150px;
     color: white;
+    width: 50px;
 }
 
 .ads_image {
