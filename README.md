@@ -2,9 +2,7 @@
 
 > This project is our fifth from the Microverse's Curriculum. It  consists of building a heat map of the Smashing magazine website, using HTML and CSS code.
 
-![screenshot](img/screenshot.png)
-
-
+<img width="960" alt="Smashing Magazine" src="https://github.com/Albertino2020/Smashing-magazine-clone/blob/working-branch/img/screenshot1.png">
 
 ## Built With
 
