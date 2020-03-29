@@ -147,8 +147,8 @@ a,
 
 .belowHead {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 1fr 1fr;
 }
 
 .belowHead1 {
@@ -166,15 +166,30 @@ a,
 }
 
 .labox {
+  background-color: grey;
+}
+
+.labox1 {
   background-color: #666;
 }
 
 .dontMissBox {
   background-color: grey;
+}
+
+.dmb {
   display: flex;
   flex-direction: column;
   place-items: center;
-  padding-top: 40px;
+  padding-top: 20px;
+  position: absolute;
+  margin: 10px auto 0 auto;
+  left: 41.5%;
+}
+
+.dmb h1 {
+  margin: 0 auto;
+  background-color: white;
 }
 
 .dontMissBox h1 {
@@ -258,7 +273,6 @@ a,
 }
 
 .artContent {
-  background-color: #666;
   display: flex;
   flex-direction: column;
   padding: 20px 50px;
@@ -275,11 +289,19 @@ a,
   color: black;
 }
 
-.artContent:nth-child(2) {
+.belowHead:nth-child(3) {
   background-color: grey;
 }
 
-.backg2 {
+.belowHead:nth-child(4) {
+  background-color: #666;
+}
+
+.belowHead:nth-child(5) {
+  background-color: #666;
+}
+
+.belowHead:nth-child(6) {
   background-color: grey;
 }
 
