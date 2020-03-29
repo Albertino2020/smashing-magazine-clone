@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Albertino2020/Smashing-magazine-clone/ff41d0794d22bc0df26ff262bb2b38ba9357a9a8/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Albertino2020/Smashing-magazine-clone/74e979ec3e5affa56b81a735031eae290399a008/index.html)
 
 ## Authors
 
